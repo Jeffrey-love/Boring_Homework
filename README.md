@@ -7,5 +7,5 @@
 `st = input()`   
 `li = [int(x) for x in st.split()]`  
   
-输出结束后不换行：:satisfied::   
+输出结束后不换行：:satisfied:    
 `print(pp[i][j], end="")`
