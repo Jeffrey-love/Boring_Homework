@@ -12,3 +12,27 @@
   
 输出结束后不换行：:satisfied:    
 `print(pp[i][j], end="")`
+  
+文件操作：  
+```python
+    with open('article_de.txt', 'a') as f:
+        f.write(plain_message)    # 文件写入
+    with open('article_en.txt', 'r') as f:
+        message = f.read()    # 文件读取
+```
+
+将字典转换成列表
+```python
+    dict_de = count_each_char(message)
+    dict_de = dict(dict_de)
+```
+      
+同时遍历字典的key和value
+```python
+for item, fre in dict_text.items():
+    if item in ZIMUBIAO:
+        minus = abs(frequency-fre)
+        if minus < min1:
+            min1 = minus
+            lett = item
+```
