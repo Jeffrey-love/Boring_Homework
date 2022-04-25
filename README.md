@@ -40,3 +40,14 @@ for item, fre in dict_text.items():
     
 ### 一些运算符~  
 `//` 如a//b是a/b向下取整
+
+
+
+  
+## Java语法学习
+输入一行字符串：  
+```java
+import java.util.*;
+Scanner in = new Scanner(System.in);
+String s1 = in.nextLine();
+```
