@@ -40,7 +40,7 @@ for item, fre in dict_text.items():
     
 ### 一些运算符~  
 `//` 如a//b是a/b向下取整  
-、**、
+`**`
 
 
 
