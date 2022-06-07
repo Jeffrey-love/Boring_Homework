@@ -6,7 +6,7 @@ int g[N][N];
 int n;
 
 void Floyd(){
-	int k,i,j;
+    int k,i,j;
     for(k=1;k<=n;k++)
         for(i=1;i<=n;i++)
             for(j=1;j<=n;j++)
